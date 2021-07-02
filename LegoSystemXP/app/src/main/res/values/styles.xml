@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button.Large" parent="Widget.AppCompat.ActionButton">
+        <item name="android:background">@color/yellow</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextSubtitle1" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/gray_intermedite</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+    <style name="TextParagraph" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/gray_intermedite</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="CardMessage" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColorHint">@color/gray_dark</item>
+        <item name="android:textSize">36dp</item>
+        <item name="android:fontFamily">@font/montserrat_extrabold</item>
+    </style>
+
+    <style name="Button">button</style>
+</resources>

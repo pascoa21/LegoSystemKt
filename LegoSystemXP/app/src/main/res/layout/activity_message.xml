@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Message">
+
+
+     <com.google.android.material.card.MaterialCardView
+         android:id="@+id/eventCard"
+         android:layout_width="264dp"
+         android:layout_height="330dp"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:background="@drawable/card_event_message"
+         >
+
+     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/imageCard"
+        android:layout_width="264dp"
+        android:layout_height="162dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/paddingPadrao">
+
+               <RelativeLayout
+                    android:layout_width="264dp"
+                    android:layout_height="172dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="124dp"
+                        android:layout_height="162dp"
+                        android:layout_marginLeft="100dp"
+                        android:src="@drawable/peep_03" />
+
+                    <ImageView
+                        android:layout_width="124dp"
+                        android:layout_height="162dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/peep_05" />
+                </RelativeLayout>
+         </com.google.android.material.card.MaterialCardView>
+
+         <com.google.android.material.card.MaterialCardView
+             android:id="@+id/messageCard"
+             android:layout_width="264dp"
+             android:layout_height="162dp"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true"
+             android:layout_gravity="bottom"
+             android:background="@drawable/card_location_event"
+             android:padding="@dimen/paddingPadrao">
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingBottom="@dimen/paddingPadrao"
+                     android:text="Meetup"
+                     android:theme="@style/TextSubtitle1" />
+
+                 <RelativeLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingBottom="@dimen/paddingPadrao">
+
+                     <ImageView
+                         android:layout_width="24dp"
+                         android:layout_height="24dp"
+                         android:src="@drawable/ic_baseline_add_location_alt_24" />
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginLeft="32dp"
+                             android:text="San Diego" />
+                     </LinearLayout>
+                 </RelativeLayout>
+
+                 <RelativeLayout
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingBottom="@dimen/paddingPadrao">
+
+                     <ImageView
+                         android:layout_width="24dp"
+                         android:layout_height="24dp"
+                         android:src="@drawable/ic_calendar" />
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content">
+
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="33dp"
+                             android:layout_marginLeft="32dp"
+                             android:text="22 March 2021" />
+                     </LinearLayout>
+                 </RelativeLayout>
+             </LinearLayout>
+         </com.google.android.material.card.MaterialCardView>
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</RelativeLayout>

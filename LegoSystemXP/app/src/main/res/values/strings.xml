@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LegoSystemXP</string>
+    <string name="button_primary">Messagem</string>
+    <string name="button_secondary">Eventos</string>
+    <string name="model_message">Work with us and forget about others</string>
+</resources>
